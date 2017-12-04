@@ -1,3 +1,10 @@
+/* 
+Continuous line creations
+first created by RedFrik
+With Serial communication
+Michel Platnic - 2007
+*/
+
 import processing.serial.*; //import the Serial library
 Serial myPort;  // The serial port, this is a new instance of the Serial class (an Object)
 float serialInput = 0.0;

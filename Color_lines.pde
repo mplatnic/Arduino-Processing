@@ -1,9 +1,14 @@
+/* 
+Continuous line creations
+first created by RedFrik
+Michel Platnic - 2007
+*/
+
 int i= 0;
 
 void setup() {
-  frameRate(60); //faster frame updaterate
+  frameRate(60); //faster frame update rate
   size(1040, 880, P2D); //using P2D renderer for nicer lines
- // smooth(4); //some antialiasing
   background(0);
 }
 void draw() {
